@@ -1,0 +1,41 @@
+.background {
+    background-color: rgb(255 240 215);
+    margin: 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.page {
+    display: flex;
+}
+
+.filterContainer {
+    height: 100%;
+}
+
+.instructorsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.addNew {
+    background-color: white;
+    align-self: flex-end;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-right: 1.2rem;
+    border-radius: 0.4rem;
+    border: 1px solid;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.addNew:hover {
+    background-color: #009ed1;
+    font-weight: bold;
+    color: white;
+}

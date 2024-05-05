@@ -1,0 +1,76 @@
+.header {
+    background-color: rgb(255 240 215);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.user {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.container {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #d2d2d2;
+    padding: 0.3rem;
+    width: 80px;
+    height: 30px;
+    border-radius: 8rem;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.button::before {
+    content: '';
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+input:checked+.button {
+    background-color: #009ed1;
+}
+
+input:checked+.button::before {
+    transform: translateX(50px);
+}
+
+.checkboxInput {
+    display: none;
+}
+
+.navBar {
+    background-color: rgb(255 242 220);
+    padding: 2rem 0;
+    width: 100%;
+    border-radius: 20px;
+}
+
+nav a {
+    margin-right: 2rem;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem 2.5rem;
+    border: 2px solid black;
+}

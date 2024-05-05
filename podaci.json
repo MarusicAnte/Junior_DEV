@@ -1,0 +1,231 @@
+{
+  "radionice": [
+    {
+      "id": "radionica_1",
+      "logo": "./public/atom.png",
+      "ime": "React JuniorDEV",
+      "datum": "01.01.2025",
+      "tezina": "Junior",
+      "predavac": [
+        "Ana Novak",
+        "Marta Kovač"
+      ],
+      "tema": "React",
+      "organizacije": [
+        "Digitalna Dalmacija",
+        "CodeEasy"
+      ],
+      "opis": "React radionica je interaktivni događaj na kojem sudionici uče osnove i napredne koncepte Reacta, popularne JavaScript biblioteke za izgradnju korisničkih sučelja.Radionica će biti interaktivna, s nizom vježbi i projekata koji će sudionike voditi kroz sve važne koncepte i tehnike potrebne za izradu React aplikacija.",
+      "broj_prijava": 1
+    },
+    {
+      "id": "radionica_2",
+      "logo": "./public/express.png",
+      "ime": "Express JS",
+      "datum": "12.06.2025",
+      "tezina": "Mid",
+      "predavac": [
+        "Ivan Horvat",
+        "Ana Novak"
+      ],
+      "tema": "Express JS",
+      "organizacije": [
+        "Blaknq_"
+      ],
+      "opis": "Express JS radionica je intenzivan tečaj koji vam omogućuje da u kratkom vremenskom periodu naučite kako izraditi web aplikacije koristeći Express.js, popularni web framework za Node.js. ",
+      "broj_prijava": 2
+    },
+    {
+      "id": "radionica_3",
+      "logo": "./public/php.png",
+      "ime": "PHP ",
+      "datum": "08.04.2025",
+      "tezina": "Junior",
+      "predavac": [
+        "Ana Novak"
+      ],
+      "tema": "PHP",
+      "organizacije": [
+        "Digitalna Dalmacija"
+      ],
+      "opis": "PHP radionica je intenzivan tečaj koji vam omogućuje da naučite osnove i napredne koncepte PHP programiranja.Radionica će biti interaktivna, s nizom vježbi i projekata koji će sudionike provesti kroz sve važne koncepte i tehnike potrebne za razvoj web aplikacija koristeći PHP. ",
+      "broj_prijava": 1,
+      "slikaURL": "08.04.2025"
+    }
+  ],
+  "predavaci": [
+    {
+      "id": "predavac_1",
+      "ime": "Toni Perkov",
+      "slikaURL": "https://xsgames.co/randomusers/assets/avatars/male/23.jpg",
+      "biografija": "Toni je iskusni softverski inženjer s više od deset godina iskustva u razvoju softverskih rješenja. Diplomirao je na Fakultetu elektrotehnike i računarstva Sveučilišta u Zagrebu. Tijekom svoje karijere, Marko je radio u nekoliko renomiranih IT tvrtki, gdje je stekao iskustvo u razvoju različitih vrsta aplikacija.",
+      "organizacija": "Locastic",
+      "tema": [
+        "PHP"
+      ]
+    },
+    {
+      "id": "predavac_2",
+      "ime": "Ana Novak",
+      "slikaURL": "https://xsgames.co/randomusers/assets/avatars/female/39.jpg",
+      "biografija": "Ana je strastvena programerka s bogatim iskustvom u razvoju web aplikacija. Završila je Fakultet informacijskih tehnologija te je stekla značajno iskustvo kroz rad na brojnim projektima. Njen fokus je na front-end tehnologijama poput Reacta, ali jako dobro se snalazi i u backend tehnologijama.",
+      "organizacija": "Digitalna Dalmacija",
+      "tema": [
+        "React"
+      ]
+    },
+    {
+      "id": "predavac_3",
+      "ime": "Ivan Horvat",
+      "slikaURL": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
+      "biografija": "Ivan je iskusni back-end programer s više od pet godina iskustva u razvoju kompleksnih web aplikacija. Diplomirao je na Fakultetu elektrotehnike i računarstva te je stekao duboko razumijevanje programiranja i arhitekture softvera. Posebno ga zanima razvoj robustnih back-end rješenja i implementacija sigurnosnih mehanizama.",
+      "organizacija": "Blankq_",
+      "tema": [
+        "Express JS"
+      ]
+    },
+    {
+      "id": "predavac_4",
+      "ime": "Marta Kovač",
+      "slikaURL": "https://xsgames.co/randomusers/assets/avatars/female/44.jpg",
+      "biografija": "Marta je UI/UX dizajnerica s fokusom na korisničko iskustvo i sučelja koja su jednostavna za korištenje. Njeno iskustvo obuhvaća dizajniranje korisničkih sučelja za različite vrste aplikacija, od web stranica do mobilnih aplikacija. Njen pristup dizajnu temelji se na razumijevanju potreba korisnika i stvaranju intuitivnih sučelja koja olakšavaju interakciju.",
+      "organizacija": "CodeEasy",
+      "tema": [
+        "React"
+      ]
+    }
+  ],
+  "organizacije": [
+    {
+      "id": "organizacija_1",
+      "ime": "Digitalna Dalmacija",
+      "opis": "Digitalna Dalmacija je vodeća IT tvrtka u regiji, sa sjedištem u Splitu. Specijalizirani smo za razvoj softverskih rješenja, web i mobilnih aplikacija te digitalni marketing. Nudimo inovativna rješenja koja pomažu našim klijentima da ostvare svoje poslovne ciljeve i unaprijede svoje poslovanje.",
+      "radionice": [
+        "React"
+      ],
+      "predavaci": [
+        "Ana Novak"
+      ]
+    },
+    {
+      "id": "organizacija_2",
+      "ime": "Locastic",
+      "opis": "Locastic je vodeća IT tvrtka s uredima u Splitu i Zagrebu. Specijalizirani smo za razvoj softverskih rješenja visoke kvalitete, web stranica, mobilnih aplikacija i digitalnog marketinga. Naš stručni tim sastoji se od iskusnih programera, dizajnera i digitalnih stručnjaka.",
+      "radionice": [
+        "Express JS"
+      ],
+      "predavaci": [
+        "Toni Perkov",
+        "Marta Kovač"
+      ]
+    },
+    {
+      "id": "organizacija_3",
+      "ime": "CodeEasy",
+      "opis": "CodeEasy je softverska tvrtka s uredima u Splitu. Specijalizirani smo za edukaciju, konzalting i razvoj softverskih rješenja. Naš cilj je olakšati učenje i razvoj softverskih vještina našim polaznicima i pružiti kvalitetna rješenja našim klijentima.",
+      "radionice": [
+        "PHP"
+      ],
+      "predavaci": [
+        "Marta Kovač",
+        "Toni Perkov"
+      ]
+    },
+    {
+      "id": "organizacija_4",
+      "ime": "Blankq_",
+      "opis": "Blankq_ je mlada i inovativna IT tvrtka sa sjedištem u Splitu. Specijalizirani smo za razvoj modernih web i mobilnih aplikacija te pružanje visokokvalitetnih usluga u području digitalnog marketinga.",
+      "radionice": [
+        "Express JS"
+      ],
+      "predavaci": [
+        "Ivan Horvat"
+      ]
+    }
+  ],
+  "tezine": [
+    {
+      "id": "junior",
+      "ime": "Junior"
+    },
+    {
+      "id": "mid",
+      "ime": "Mid"
+    },
+    {
+      "id": "senior",
+      "ime": "Senior"
+    }
+  ],
+  "teme": [
+    {
+      "id": "react",
+      "ime": "React"
+    },
+    {
+      "id": "express",
+      "ime": "Express JS"
+    },
+    {
+      "id": "php",
+      "ime": "PHP"
+    },
+    {
+      "id": "wordpress",
+      "ime": "WordPress"
+    }
+  ],
+  "prijave": [
+    {
+      "id": "ad72",
+      "idKartice": "radionica_3",
+      "imeKartice": "PHP ",
+      "imePrezime": "Blanka Jurić",
+      "email": "bjuric12@gmail.com",
+      "razlogPrijave": "Zanima me backend programiranje web aplikacija u PHP-u.",
+      "ime": "Tečaj PHP"
+    },
+    {
+      "id": "3c3a",
+      "idKartice": "radionica_2",
+      "imeKartice": "Express JS",
+      "imePrezime": "Ante Marušić",
+      "email": "amarus00@fesb.hr",
+      "razlogPrijave": "Želim naučiti izradu aplikacija koristeći Express JS."
+    },
+    {
+      "id": "17a4",
+      "idKartice": "radionica_1",
+      "imeKartice": "React JuniorDEV",
+      "imePrezime": "Robert Perković",
+      "email": "robert.perkovic@gmail.com",
+      "razlogPrijave": "Zanima me programiranje web stranica i web aplikacija."
+    },
+    {
+      "id": "77e7",
+      "idKartice": "radionica_2",
+      "imeKartice": "Express JS",
+      "imePrezime": "Marko Andrić",
+      "email": "mandirc05@gmail.com",
+      "razlogPrijave": "Zanima me Express JS."
+    }
+  ],
+  "logo": [
+    {
+      "id": "React",
+      "url": "./public/atom.png"
+    },
+    {
+      "id": "Express JS",
+      "url": "./public/express.png"
+    },
+    {
+      "id": "PHP",
+      "url": "./public/php.png"
+    },
+    {
+      "id": "WordPress",
+      "url": "./public/wordpress.png"
+    }
+  ]
+}

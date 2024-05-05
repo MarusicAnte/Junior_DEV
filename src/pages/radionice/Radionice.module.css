@@ -1,0 +1,43 @@
+.background {
+    background-color: rgb(255 240 215);
+    margin: 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.page {
+    display: flex;
+}
+
+.filterContainer {
+    height: 100%;
+}
+
+.cardsContainer {
+    border-radius: 1rem;
+    width: 100%;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.addNew {
+    background-color: white;
+    align-self: flex-end;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-right: 1.2rem;
+    border-radius: 0.4rem;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.addNew:hover {
+    background-color: #009ed1;
+    font-weight: bold;
+    color: white;
+}

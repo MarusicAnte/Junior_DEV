@@ -1,0 +1,58 @@
+table {
+    width: 100%;
+}
+
+.tableThead {
+    background-color: rgb(249 222 176);
+}
+
+th {
+    padding: 0.6rem 0;
+    font-size: 1.1rem;
+    width: 20%;
+}
+
+tr th:first-child {
+    width: 15%;
+}
+
+tr th:nth-child(n+2) {
+    width: 15%;
+}
+
+td {
+    text-align: center;
+    padding: 0.4rem 0.2rem;
+    background-color: rgb(255 242 220);
+}
+
+.description {
+    width: 30%;
+}
+
+.tableDeleteBtn,
+.tableUpdateBtn {
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.tableUpdateBtn {
+    margin-right: 1.5rem;
+    background-color: rgb(0, 158, 209);
+    color: white;
+}
+
+.tableDeleteBtn {
+    background-color: rgb(208, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+
+.tableImg {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
