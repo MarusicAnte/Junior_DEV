@@ -15,7 +15,7 @@ function RedakSazetka({ id, tema, slika, teme, organizacija, kategorija, ime, br
         }
     }
 
-    const izbrisiRedakTablice = (kategorija) => {
+    const izbrisiRedakTablice = () => {
         if (kategorija === "radionica") {
             const potvrda = window.confirm("Jeste li sigurni da želite izbrisati radionicu ?");
             if (potvrda) {

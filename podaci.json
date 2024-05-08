@@ -112,11 +112,13 @@
       "ime": "Locastic",
       "opis": "Locastic je vodeća IT tvrtka s uredima u Splitu i Zagrebu. Specijalizirani smo za razvoj softverskih rješenja visoke kvalitete, web stranica, mobilnih aplikacija i digitalnog marketinga. Naš stručni tim sastoji se od iskusnih programera, dizajnera i digitalnih stručnjaka.",
       "radionice": [
-        "Express JS"
+        "Express JS",
+        "WordPress"
       ],
       "predavaci": [
         "Toni Perkov",
-        "Marta Kovač"
+        "Marta Kovač",
+        "Ana Novak"
       ]
     },
     {
